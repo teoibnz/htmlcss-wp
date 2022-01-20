@@ -2,6 +2,8 @@
     box-sizing: border-box;
     margin: 0 auto;
     padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    
 }
 
 body{
@@ -25,17 +27,27 @@ ul{
 
 li{ 
     padding-right: 10px;
+    text-transform: uppercase;
+    color: rgb(191, 188, 188);
+    font-weight: 400;
 }
 
 .container{
     width: 80%;
 }
-.top-section{
+.top-section{ 
     height: 400px;
-    background-color:#e1d67a;
+    /* background-color:#e1d67a; */
     width: 100%;
-}
+    background-size: cover;
+    background-image: url(../img/banner.jpg);
+} 
 
+.top-banner{
+    height: 100%;
+    
+    
+}
 .bottom-section{
     background-color: #0088fb;    
 }
@@ -84,4 +96,34 @@ ul.navigation-menu li {
 
 div#logo-container ul{
     float: left;
+}
+
+
+.top-section-text{
+    height: 100%;
+    text-align: left;
+    position: relative;
+    
+}
+
+.title{
+    color: white;
+    font-weight: normal;
+    height: 100px;
+    width: 450px;
+    float: left;
+    padding: 10px;
+}
+
+.top{
+    position: absolute;
+    left: 40px;
+    bottom: 130px;
+}
+
+.sub{
+    position: absolute;
+    left: 40px;
+    bottom: 60px;
+    font-size: 14px; 
 }
