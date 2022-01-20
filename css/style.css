@@ -41,6 +41,7 @@ li{
     width: 100%;
     background-size: cover;
     background-image: url(../img/banner.jpg);
+    border-radius: 10px;
 } 
 
 .top-banner{
@@ -48,8 +49,7 @@ li{
     
     
 }
-.bottom-section{
-    background-color: #0088fb;    
+.bottom-section{  
 }
 
 .clearfix::after{
@@ -63,8 +63,6 @@ li{
 }
 
 .menu{
-    background-color: #abcfe7;
-    height: 480px;
     float: left;
     
 }
@@ -76,17 +74,6 @@ li{
 .logo{
     height: 80px;
     margin-bottom: 20px;
-}
-
-#main{
-    width: calc(50% - 20px);
-    margin: 0 10px 0 10px;
-}
-
-#header{
-    width: 100%;
-    height: 100px;
-    margin-bottom: 10px;
 }
 
 ul.navigation-menu li {
@@ -126,4 +113,41 @@ div#logo-container ul{
     left: 40px;
     bottom: 60px;
     font-size: 14px; 
+}
+
+.img-aside{
+    width: 100%;
+    border-radius: 10px;
+    height: 200px;
+}
+
+#main{
+    width: calc(50% - 20px);
+    margin: 0 10px 0 10px;
+}
+
+#header{
+    width: 100%;
+    height: 100px;
+    margin-bottom: 10px;
+}
+
+.article{
+    margin-top:10px;
+    display: block;
+}
+
+.titolo{
+    color: rgb(164, 162, 162);
+}
+.testo{
+    color: lightgray;
+}
+#titolo-centrale{
+    font-size: 40px;
+    font-weight: 550;
+}
+
+#sottotitolo-centrale{
+    color: lightgray;
 }
