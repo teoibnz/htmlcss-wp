@@ -16,10 +16,11 @@ header{
 }
 
 footer{
-    background-color: #8701fe;
+    color: rgb(96, 96, 96);
     width: 100%;
     height: 50px;
-    margin-bottom: 20px;
+    margin: 40px 0 20px;
+    text-align: center;
 }
 ul{
     float: left; 
@@ -150,4 +151,12 @@ div#logo-container ul{
 
 #sottotitolo-centrale{
     color: lightgray;
+}
+
+#heart{
+    color: red;
+}
+
+#footer-text{
+    font-weight: 250;
 }
